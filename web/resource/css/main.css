@@ -1,0 +1,199 @@
+html, body {
+    width: 100%;
+    height: 100%;
+    font-family: sans-serif;
+}
+
+.navbar-inverse {
+    height: 75px;
+    border-radius: 0px;
+    background-color: black !important;
+}
+
+.navbar-header {
+    margin-top: 15px;
+}
+
+.navbar-header a {
+    font-size: 28px;
+    color: white !important;
+}
+
+.navbar-right li a{
+    margin-top: 15px;
+    color: white !important;
+    font-size: 16px;
+}
+
+.container {
+    text-align: center;
+}   
+
+.content table {
+    margin: 0 auto;
+}
+
+.content  h3 {
+    margin-top: -5px;
+    font-family: sans-serif;
+    font-size: 24px;
+}
+
+.content table th {
+    width: 175px;
+    height: 50px;
+    text-align: center;
+}
+
+.content table td {
+    height: 50px;
+}
+
+.quant {
+    width: 35px;
+}
+
+.addToCart {
+    width: 35px;
+    height: 35px;
+    background: url(../media/cart.png) no-repeat;
+    background-size: 30px;
+    /*padding-right: 17px;*/
+}
+
+.footnote {
+    margin-bottom: 35px;
+    text-align: center;
+}
+
+.footnote label {
+    margin-top: 25px;
+}
+.footnote button {
+    margin: 0 auto;
+    height: 35px;
+    text-transform: uppercase;
+    font-weight: 600;
+    background-color: black;
+    color: white;
+    border-color: white;
+    text-decoration: none;
+}
+
+.footnote button:focus {
+    outline: 0;
+}
+
+.input-row {
+    margin-bottom: 15px;
+}
+
+.shippingInfo {
+    margin-top: 35px;
+}
+
+.contactInfo {
+    margin-top: 35px;
+}
+
+.header {
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+#addressInput {
+    width: 375px;
+}
+
+.expiration {
+    border: 1px solid black;
+}
+.expiration input {
+    border: 0;
+}
+
+.paymentRow {
+    margin-bottom: 25px;
+}
+
+.paymentInfo {
+    margin-bottom: 35px;    
+    margin-top: 35px;
+}
+
+.submitButton {
+    border-radius: 0px;
+    background-color: black;
+    color: white;
+    height: 35px;
+    font-weight: 600;
+    width: 200px;
+}
+
+.select {
+    width: 200px;
+    height: 35px;
+    background-color: black;
+    color: white;
+    font-weight: 600;
+}
+
+.confirmRow {
+    margin-bottom: -10px;
+}
+
+.confirmButtonRow {
+    margin-top: 10px;
+}
+
+.shipDetails {
+    border: 1px solid black;
+    border-radius: 100px;
+    padding-bottom: 10px;
+}
+
+.deliveryRow {
+    margin-top: 25px;
+}
+
+.OrderPlaced {
+    margin-top: 15%;
+    text-align: center;
+}
+
+.OrderPlaced label {
+    font-size: 28px;
+}
+
+.mission {
+    margin-bottom: 50px;
+}
+
+.mission p {
+    font-size: 18px;
+}
+
+.review {
+    border-top: 1px solid black;
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+    /*border-bottom: 1px solid black;*/
+}
+
+.review:last-child {
+    border-bottom: 1px solid black;
+}
+
+.leaveReview {
+    margin-top: 50px;
+    text-align: left;
+}
+
+#reviewText {
+    width: 300px;
+    height: 50px;
+}
+
+.reviewRow {
+   margin-bottom: 25px;
+}   
